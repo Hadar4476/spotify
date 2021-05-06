@@ -1,0 +1,32 @@
+.Login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.Login > img {
+  width: 100%;
+}
+
+.Login > button {
+  padding: 20px;
+  border-radius: 99px;
+  background-color: #1db954;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  border-color: transparent;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  min-width: 160px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.Login > button:focus {
+  outline: none;
+}
+.Login > button:hover {
+  background-color: #4bdf80;
+}

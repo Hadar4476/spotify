@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.HeaderLeft {
+  flex: 0.5;
+  min-width: 70px;
+  background-color: white;
+  color: grey;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.HeaderLeft input {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.HeaderRight {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderRight h4 {
+  margin-left: 10px;
+}

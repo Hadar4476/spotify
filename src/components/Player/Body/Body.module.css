@@ -1,0 +1,33 @@
+.Body {
+  color: white;
+  padding: 0 10px;
+}
+
+.BodyInfo {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.BodyInfo img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.BodyInfo p {
+  margin: 0;
+}
+
+.BodyInfoText {
+  flex: 1;
+}
+
+.BodyInfoText h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.BodyInfoText > p {
+  font-size: 14px;
+}
